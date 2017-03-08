@@ -2,7 +2,7 @@ Fuinha
 ======
 [![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/fuinha.svg)](https://github.com/IgorAntun/fuinha/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/fuinha.svg)](https://github.com/IgorAntun/fuinha/issues)
-[![npm](https://img.shields.io/npm/IgorAntun/fuinha.svg)]()
+[![npm](https://img.shields.io/npm/dt/fuinha.svg)]()
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![Travis](https://img.shields.io/travis/IgorAntun/fuinha.svg)]()
 [![Codecov](https://img.shields.io/codecov/c/github/IgorAntun/fuinha.svg)]()
