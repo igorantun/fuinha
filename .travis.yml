@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - 'stable'
+  - '6'
+  - '5'
+  - '4'
+  - '0.12'
+  - '0.10'
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+# Send coverage data to Coveralls
+after_success: npm run coverage
+
+notifications:
+  email: false

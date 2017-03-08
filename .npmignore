@@ -9,8 +9,10 @@ pids
 *.seed
 
 # Test and coverage tools
-coverage
+.travis.yml
 .nyc_output
+coverage
+test
 
 # Dependency directories
 node_modules

@@ -1,0 +1,48 @@
+{
+  "name": "fuinha",
+  "version": "0.0.1",
+  "description": "A modular abstraction of x-ray",
+  "main": "index.js",
+  "dependencies": {
+    "to-type": "^1.1.0",
+    "x-ray": "2.3.2"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "nyc": "10.1.2",
+    "xo": "0.17.1"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "xo && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorAntun/fuinha.git"
+  },
+  "keywords": [
+    "scraper",
+    "x-ray"
+  ],
+  "author": "Igor Antun <igor@antun.me> (https://github.com/IgorAntun)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IgorAntun/fuinha/issues"
+  },
+  "homepage": "https://github.com/IgorAntun/fuinha#readme",
+  "xo": {
+    "space": true
+  },
+  "nyc": {
+    "lines": 90,
+    "statements": 90,
+    "functions": 90,
+    "branches": 90,
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "html"
+    ]
+  }
+}
