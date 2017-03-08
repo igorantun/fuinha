@@ -15,7 +15,7 @@
   "scripts": {
     "start": "node index",
     "test": "xo && nyc ava",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
